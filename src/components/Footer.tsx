@@ -12,8 +12,8 @@ export default function Footer() {
           <Separator orientation="vertical" className="hidden h-4! sm:block" />
           <p className="text-muted-foreground text-sm">
             Made with 🤍 by{' '}
-            <a href="https://github.com/kumardeo" className="text-foreground" target="_blank" rel="noopener">
-              Deo Kumar
+            <a className="text-foreground" target="_blank" rel="noopener">
+              Nhật Ký Đại Dịch
             </a>
             !
           </p>
@@ -22,12 +22,12 @@ export default function Footer() {
           {[
             {
               label: 'Github',
-              link: 'https://github.com/kumardeo',
+              link: '#',
               icon: GithubIcon,
             },
             {
               label: 'Email',
-              link: 'mailto:deo@fineshopdesign.com',
+              link: 'mailto:deo@nhatkydaidich.blogspot.com',
               icon: MailIcon,
             },
           ].map(({ label, link, icon: Icon }) => (
