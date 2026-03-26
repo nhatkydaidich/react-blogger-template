@@ -27,7 +27,7 @@ export default function Footer() {
             },
             {
               label: 'Email',
-              link: 'mailto:deo@nhatkydaidich.blogspot.com',
+              link: '#',
               icon: MailIcon,
             },
           ].map(({ label, link, icon: Icon }) => (
